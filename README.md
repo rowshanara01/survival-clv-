@@ -13,7 +13,7 @@ pytest -q
 uvicorn app.main:app --reload     # POST /survival  (docs at /docs)
 ```
 
-## What's included (high level)
+## What's included (high level) ##
 
 1. **Censoring:** 73% of customers are still active. A classifier would wrongly learn these as "no churn."
 2. **Kaplan-Meier + log-rank test; Cox Proportional Hazards** with hazard ratios (for example, Electronic check = 1.51x the risk).
