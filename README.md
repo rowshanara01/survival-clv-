@@ -36,7 +36,7 @@ uvicorn app.main:app --reload     # POST /survival  (docs at /docs)
 - The data covers at most 72 months. No extrapolation beyond that was done, so the model can't show the next 24 months for customers with long tenure.
 - In the stratified model, the proportional-hazards assumption still isn't fully satisfied for some streaming features (see the `train.py` output).
 
-## Challenges / next steps
+## Challenges / next steps ##
 
 1. **Time-varying covariates** (for example, a contract change), using Cox with time-varying covariates.
 2. **Random Survival Forest / GBM survival** (`scikit-survival`).
