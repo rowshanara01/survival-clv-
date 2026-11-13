@@ -4,7 +4,7 @@ A churn classifier tells you *whether* a customer will leave. Survival analysis 
 
 Customers who haven't left yet can't simply be dropped: they are **censored**. All we know is "they were still here after this many months."
 
-## How to run
+## How to run ##
 
 ```bash
 pip install -r requirements.txt
