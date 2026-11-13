@@ -1,4 +1,4 @@
-# Survival Analysis + CLV (Real Telco Data)
+# Survival Analysis + CLV (Real Telco Data) #
 
 A churn classifier tells you *whether* a customer will leave. Survival analysis tells you **when** they will leave, and **how long** they will stay.
 
