@@ -25,7 +25,7 @@ uvicorn app.main:app --reload     # POST /survival  (docs at /docs)
 8. **Library gotcha:** `lifelines` shuffles the column order in stratified `predict`. The bug was caught and is covered by a test.
 9. **API + tests + quality gates + Docker.**
 
-## What the real data teaches
+## What the real data teaches ##
 
 - On two-year contracts, **nobody** leaves in the first 24 months (they are locked in). The survival curve even shows the rules of the data.
 - On month-to-month contracts, only about 59% remain at 24 months.
