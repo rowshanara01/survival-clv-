@@ -30,7 +30,7 @@ uvicorn app.main:app --reload     # POST /survival  (docs at /docs)
 - On two-year contracts, **nobody** leaves in the first 24 months (they are locked in). The survival curve even shows the rules of the data.
 - On month-to-month contracts, only about 59% remain at 24 months.
 
-## Limitations
+## Limitations ##
 
 - **The offer effect (hazard x 0.8) is an assumption.** In practice you need an A/B test to measure it.
 - The data covers at most 72 months. No extrapolation beyond that was done, so the model can't show the next 24 months for customers with long tenure.
